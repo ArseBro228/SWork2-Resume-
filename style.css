@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+body{
+    background-color: rgb(214, 214, 214);
+}
+.box1 h1{
+    color: whitesmoke;
+    margin: 30px 0;
+    
+}
+p{
+    color: grey;
+}
+.box1 li{
+    color: whitesmoke;
+}
+.box2 h3{
+    font-size: 24px;
+    color: grey;
+    margin-left: 5px;
+}
+h4{
+    font-size: 16px;
+    color: grey;
+    font-family: 'Red Hat Mono', monospace;
+}
+.forma{
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    width: 65%;
+    height: auto;
+    left: 20%;
+    top: 20px;
+    border-radius: 5px;
+}
+.h4_black{
+    color: black;
+}
+.box1{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Varela Round', sans-serif;
+    position: static;
+    width: 30%;
+    height: 880px;
+    background-color: darkslategrey;
+    left: 30px;
+    top: 30px;
+    border-radius: 10px;
+}
+.box1:hover{
+    transition: 0.5s;
+    box-shadow: 0px 10px 30px black;
+}
+.box2{
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    left: 40%;
+    top: 75px;
+    position: static;
+    width: 70%;
+    height: auto;
+}
+.box2 h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 45px;
+}
+.box2 h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+}
+.box1 img{
+    margin-top: 35px;
+    max-width: 100%;
+    max-height: 50%;
+}
+.info_left{
+    margin-left: auto;
+    text-align: left;
+    width: 80%;
+    height: auto;
+    padding: 10px 10px;
+}
+.info_right{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+mark{
+    margin-left: 10px;
+    color: tomato;
+}
+span{
+    color: red;
+}
+@media screen and (max-width: 1535px) {
+    .box1{
+        width: 90%;
+        height: auto;
+    }
+    .info_left{
+        width: 100%;
+        margin-left: auto;
+    }
+    .forma{
+        display: block;
+    }
+    h4{
+        font-size: 12px;
+        font-family: none;
+    }
+    .info_right{
+        margin-left: 10%;
+        height: auto;
+    }
+    .box2 h1{
+        font-family: none;
+        font-size: 20px;
+    }
+    .box2 h2{
+        font-family: none;
+        font-size: 15px;
+    }
+    .box2 h3{
+        font-size: 12px;
+    }
+    .box2 li{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .box1 h1{
+        font-size: 16px;
+    }
+    .box1 li{
+        font-size: 9px;
+    }
+    .box1 p{
+        font-size: 10px;
+    }
+    h4{
+        font-size: 10px;
+        font-family: none;
+    }
+    .box2 h1{
+        font-family: none;
+        font-size: 17px;
+    }
+    .box2 h2{
+        font-family: none;
+        font-size: 12px;
+    }
+    .box2 h3{
+        font-size: 9px;
+    }
+    .box2 li{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .box1 h1{
+        font-size: 9px;
+    }
+    .box1 li{
+        font-size: 5px;
+    }
+    .box1 p{
+        font-size: 6px;
+    }
+    h4{
+        font-size: 6px;
+        font-family: none;
+    }
+    .box2 h1{
+        font-family: none;
+        font-size: 9px;
+    }
+    .box2 h2{
+        font-family: none;
+        font-size: 7px;
+    }
+    .box2 h3{
+        font-size: 5px;
+    }
+    .box2 li{
+        font-size: 5px;
+    }
+}
